@@ -1,0 +1,608 @@
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameArena | The Ultimate Gaming Experience</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <i class="fa-solid fa-gamepad"></i> Game<span>Arena</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#mainNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#games">OUR GAMES</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">What We Do</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tournaments">Tournaments</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="#contact" class="nav-icon"><i class="fa-regular fa-bell"></i></a>
+          <a href="#contact" class="nav-icon"><i class="fa-regular fa-envelope"></i></a>
+          <a class="btn btn-green btn-sm" href="#contact">Sign In</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="home">
+    <div class="container hero-content">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <p class="eyebrow"><span></span> LEVEL UP YOUR GAME</p>
+          <h1>THE ULTIMATE<br><span>GAMING EXPERIENCE</span></h1>
+
+          <p class="hero-copy">
+            Join millions of gamers worldwide in the most competitive eSports tournaments.
+            Experience next-level gaming with cutting-edge technology and endless possibilities.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#games" class="btn btn-green">
+              Start Gaming Now <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#tournaments" class="btn btn-outline-light">
+              Watch Tournaments <i class="fa-regular fa-circle-play"></i>
+            </a>
+          </div>
+
+          <div class="player-count">
+            <div class="player-icon"><i class="fa-solid fa-users"></i></div>
+            <div>
+              <strong>2.5M+</strong>
+              <small>Active Players</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <img class="hero-character" src="images/hero-img.png" alt="Professional esports gamer">
+        </div>
+      </div>
+    </div>
+    <div class="hero-bottom-line"></div>
+  </header>
+
+  <main>
+
+    <!-- Games -->
+    <section class="section games-section" id="games">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">OUR GAMES</p>
+          <h2>Our Latest <span>Games</span></h2>
+          <p>Discover our collection of exciting games and adventures</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="game-card">
+              <div class="game-image">
+                <img src="images/latest-games-1.png" alt="Alien Companions">
+                <span class="game-number">01</span>
+              </div>
+              <div class="game-info">
+                <div class="tags"><span>ADVENTURE</span><span>MULTIPLAYER</span></div>
+                <h3>Alien Companions</h3>
+                <a href="#contact" class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="game-card">
+              <div class="game-image">
+                <img src="images/latest-games-2.png" alt="Cyber Run 2099">
+                <span class="game-number">02</span>
+              </div>
+              <div class="game-info">
+                <div class="tags"><span>RACING</span><span>SCI-FI</span></div>
+                <h3>Cyber Run 2099</h3>
+                <a href="#contact" class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="game-card">
+              <div class="game-image">
+                <img src="images/latest-games-3.png" alt="Zelda">
+                <span class="game-number">03</span>
+              </div>
+              <div class="game-info">
+                <div class="tags"><span>ACTION</span><span>GEFORCE</span></div>
+                <h3>The Legend of Zelda: Tears of the Kingdom</h3>
+                <a href="#contact" class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="game-card">
+              <div class="game-image">
+                <img src="images/latest-games-4.png" alt="Aetheria Chronicles">
+                <span class="game-number">04</span>
+              </div>
+              <div class="game-info">
+                <div class="tags"><span>RPG</span><span>FANTASY</span></div>
+                <h3>Aetheria Chronicles</h3>
+                <a href="#contact" class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="game-card">
+              <div class="game-image">
+                <img src="images/latest-games-5.png" alt="Warfront Protocol">
+                <span class="game-number">05</span>
+              </div>
+              <div class="game-info">
+                <div class="tags"><span>SHOOTER</span><span>CO-OP</span></div>
+                <h3>Warfront Protocol</h3>
+                <a href="#contact" class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="game-card">
+              <div class="game-image">
+                <img src="images/latest-games-6.png" alt="Shot Striker">
+                <span class="game-number">06</span>
+              </div>
+              <div class="game-info">
+                <div class="tags"><span>FOOTBALL</span><span>FANTASY</span></div>
+                <h3>Shot Striker</h3>
+                <a href="#contact" class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="game-card">
+              <div class="game-image">
+                <img src="images/latest-games-7.png" alt="Epic Gaming League">
+                <span class="game-number">07</span>
+              </div>
+              <div class="game-info">
+                <div class="tags"><span>SPORTS</span><span>LEAGUE</span></div>
+                <h3>Epic Gaming League</h3>
+                <a href="#contact" class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="game-card">
+              <div class="game-image">
+                <img src="images/latest-games-8.png" alt="Barren Alien Worlds">
+                <span class="game-number">08</span>
+              </div>
+              <div class="game-info">
+                <div class="tags"><span>SPACE</span><span>EXPLORATION</span></div>
+                <h3>Barren Alien Worlds</h3>
+                <a href="#contact" class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <article class="game-card">
+              <div class="game-image">
+                <img src="images/latest-games-9.png" alt="Cloveland Quest">
+                <span class="game-number">09</span>
+              </div>
+              <div class="game-info">
+                <div class="tags"><span>ACTION</span><span>FUTURISTIC</span></div>
+                <h3>Cloveland Quest</h3>
+                <a href="#contact" class="card-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="#games" class="btn btn-outline-green">
+            VIEW ALL GAMES <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2>More Than Just <span>Games</span></h2>
+        </div>
+
+        <div class="row align-items-center g-5 service-row">
+          <div class="col-lg-6">
+            <h3 class="service-title">We Build Interactive<br><span>Journeys</span></h3>
+            <div class="service-list">
+              <div><i class="fa-solid fa-desktop"></i><h4>PC Game<br>Development</h4></div>
+              <div><i class="fa-solid fa-mobile-screen-button"></i><h4>Mobile Game<br>Development</h4></div>
+              <div><i class="fa-solid fa-vr-cardboard"></i><h4>AR/VR<br>Solutions</h4></div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="service-image" src="images/what-we-do-1.png" alt="Gaming controllers">
+          </div>
+        </div>
+
+        <div class="row align-items-center g-5 service-row second-service">
+          <div class="col-lg-6 order-lg-2">
+            <h3 class="service-title">Creative Ideas.<br><span>Powerful Worlds.</span></h3>
+            <div class="service-list">
+              <div><i class="fa-brands fa-playstation"></i><h4>PS4 Game<br>Development</h4></div>
+              <div><i class="fa-solid fa-cube"></i><h4>3D<br>Modelings</h4></div>
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <img class="service-image" src="images/what-we-do-2.png" alt="Game character design">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="brand-strip" aria-label="Our partners">
+      <div class="container">
+        <div class="brand-track">
+          <img src="images/logo-1.jpg" alt="Gaming partner">
+          <img src="images/logo-2.jpg" alt="Gaming partner">
+          <img src="images/logo-3.jpg" alt="Gaming partner">
+          <img src="images/logo-4.jpg" alt="Gaming partner">
+          <img src="images/logo-5.jpg" alt="Gaming partner">
+          <img src="images/logo-6.jpg" alt="Gaming partner">
+          <img src="images/logo-7.jpg" alt="Gaming partner">
+          <img src="images/logo-8.jpg" alt="Gaming partner">
+          <img src="images/logo-9.jpg" alt="Gaming partner">
+          <img src="images/logo-10.jpg" alt="Gaming partner">
+          <img src="images/logo-11.jpg" alt="Gaming partner">
+          <img src="images/logo-12.jpg" alt="Gaming partner">
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="section team-section" id="team">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">OUR TEAM</p>
+          <h2>Our Best Team <span>Members</span></h2>
+          <p>Meet the professional gamers and experts behind our success</p>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-sm-6 col-lg-3">
+            <article class="team-card">
+              <img src="images/avatar-1.png" alt="Alex Phantom Chen">
+              <div class="team-info">
+                <h3>Alex "Phantom" Chen</h3>
+                <p>Pro Player - VALORANT</p>
+                <small>World Champion 2023</small>
+                <span>PHANTOM</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <article class="team-card">
+              <img src="images/avatar-2.png" alt="Ali Nova Ahmed">
+              <div class="team-info">
+                <h3>Ali "Nova" Ahmed</h3>
+                <p>Pro Player - League of Legends</p>
+                <small>MVP 2023 Season</small>
+                <span>NOVA</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <article class="team-card">
+              <img src="images/avatar-3.png" alt="Marcus Viper Rodriguez">
+              <div class="team-info">
+                <h3>Marcus "Viper" Rodriguez</h3>
+                <p>Head Coach - CS:GO</p>
+                <small>5x Major Winner</small>
+                <span>VIPER</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <article class="team-card">
+              <img src="images/avatar-4.png" alt="Seif Saga Usama">
+              <div class="team-info">
+                <h3>Seif "Saga" Usama</h3>
+                <p>Strategic Analyst</p>
+                <small>Data Science Expert</small>
+                <span>SAGA</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <article class="team-card">
+              <img src="images/avatar-5.png" alt="Jake Storm Wilson">
+              <div class="team-info">
+                <h3>Jake "Storm" Wilson</h3>
+                <p>Pro Player - Apex Legends</p>
+                <small>Rising Star 2023</small>
+                <span>STORM</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <article class="team-card">
+              <img src="images/avatar-6.png" alt="David Titan Park">
+              <div class="team-info">
+                <h3>David "Titan" Park</h3>
+                <p>Team Captain - Dota 2</p>
+                <small>The International Winner</small>
+                <span>TITAN</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <article class="team-card">
+              <img src="images/avatar-7.png" alt="Khaled Phoenix Ali">
+              <div class="team-info">
+                <h3>Khaled "Phoenix" Ali</h3>
+                <p>Content Creator</p>
+                <small>2M+ Followers</small>
+                <span>PHOENIX</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <article class="team-card">
+              <img src="images/avatar-8.png" alt="Ryan Ghost Miller">
+              <div class="team-info">
+                <h3>Ryan "Ghost" Miller</h3>
+                <p>Team Manager</p>
+                <small>Operations Lead</small>
+                <span>GHOST</span>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Tournaments -->
+    <section class="section tournament-section" id="tournaments">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">COMPETE WITH THE BEST</p>
+          <h2>Epic <span>Tournaments</span></h2>
+          <p>Join the action and experience the world's biggest esports events</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="event-card">
+              <img src="images/dota-2-international.jpg" alt="Dota 2 International">
+              <div>
+                <span>FEATURED EVENT</span>
+                <h3>Dota 2 International</h3>
+                <p>Get ready for the ultimate competitive gaming experience.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="event-card">
+              <img src="images/go-major.jpg" alt="Go Major">
+              <div>
+                <span>UPCOMING EVENT</span>
+                <h3>GO Major</h3>
+                <p>Watch top teams compete for the championship title.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CONTACT US</p>
+          <h2>Get In <span>Touch</span></h2>
+          <p>Have questions or need support? We're here to help!</p>
+        </div>
+
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <div class="contact-details">
+
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <h3>Our Location</h3>
+                  <p>123 Gaming Street, Esports City, EC 12345</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <h3>Phone Number</h3>
+                  <p>+1 (555) 123-4567</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                  <h3>Email Address</h3>
+                  <p>contact@gamearena.com</p>
+                </div>
+              </div>
+
+              <div class="community">
+                <h3>Join Our Community</h3>
+                <p>Connect with us on social media for the latest updates</p>
+                <div class="socials">
+                  <a href="#contact"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#contact"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="#contact"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#contact"><i class="fa-brands fa-discord"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks! Your message has been received.');">
+              <h3>Send us a Message</h3>
+
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label>First Name</label>
+                  <input class="form-control" type="text" placeholder="Your first name" required>
+                </div>
+
+                <div class="col-md-6">
+                  <label>Last Name</label>
+                  <input class="form-control" type="text" placeholder="Your last name" required>
+                </div>
+
+                <div class="col-12">
+                  <label>Email Address</label>
+                  <input class="form-control" type="email" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="col-12">
+                  <label>Subject</label>
+                  <select class="form-select" required>
+                    <option value="" selected disabled>Select a subject</option>
+                    <option>General Inquiry</option>
+                    <option>Technical Support</option>
+                    <option>Tournaments</option>
+                  </select>
+                </div>
+
+                <div class="col-12">
+                  <label>Message</label>
+                  <textarea class="form-control" rows="4" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <div class="col-12">
+                  <label class="check-label">
+                    <input type="checkbox">
+                    Subscribe to our newsletter for gaming updates
+                  </label>
+                </div>
+
+                <div class="col-12">
+                  <button class="btn btn-green" type="submit">
+                    Send Message <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="support-stats">
+          <div><strong>24/7</strong><span>Support Available</span></div>
+          <div><strong>&lt;1hr</strong><span>Average Response</span></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-lg-4">
+          <a class="navbar-brand" href="#home">
+            <i class="fa-solid fa-gamepad"></i> Game<span>Arena</span>
+          </a>
+          <p>
+            The ultimate destination for competitive gaming, esports tournaments,
+            and gaming community.
+          </p>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h4>Games</h4>
+          <a href="#games">VALORANT</a>
+          <a href="#games">League of Legends</a>
+          <a href="#games">CS:GO</a>
+          <a href="#games">Dota 2</a>
+          <a href="#games">Apex Legends</a>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <h4>Tournaments</h4>
+          <a href="#tournaments">Upcoming Events</a>
+          <a href="#tournaments">Live Matches</a>
+          <a href="#tournaments">Results</a>
+          <a href="#tournaments">Rankings</a>
+          <a href="#tournaments">Schedule</a>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <h4>Support</h4>
+          <a href="#contact">Help Center</a>
+          <a href="#contact">Contact Us</a>
+          <a href="#contact">Bug Reports</a>
+          <a href="#contact">Feature Requests</a>
+          <a href="#contact">Community Guidelines</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 GameArena. All rights reserved.</span>
+        <div>
+          <a href="#contact">Privacy Policy</a>
+          <a href="#contact">Terms of Service</a>
+          <a href="#contact">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
